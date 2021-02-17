@@ -25,13 +25,13 @@ dwm_spotify () {
 
         if [ "$IDENTIFIER" = "unicode" ]; then
             if [ "$STATUS" = "Playing" ]; then
-                STATUS="▶"
+                STATUS=""
             else
-                STATUS="⏸"
+                STATUS=""
             fi
             
             if [ "$SHUFFLE" = "On" ]; then
-                SHUFFLE=" 🔀"
+                SHUFFLE=" "
             else
                 SHUFFLE=""
             fi
