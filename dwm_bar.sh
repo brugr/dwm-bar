@@ -62,8 +62,6 @@ do
     dispstr=""
     dispstr="$dispstr$(dwm_spotify)"
     dispstr="$dispstr$(dwm_battery)"
-    dispstr="$dispstr$(dwm_pulse)"
-    dispstr="$dispstr${dwm_wpa}"
     dispstr="$dispstr$(dwm_date)"
 
     xsetroot -name "$dispstr"
